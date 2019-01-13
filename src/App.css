@@ -1,0 +1,52 @@
+.App {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.square:hover {
+  background-color: rgb(0,0,255);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+button {
+  margin: 22.5px 0px 0px 50px;
+  height: 25px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: green;
+}
+
+button:hover {
+  opacity: 30%;
+  box-shadow: (40,40,40,40);
+}
